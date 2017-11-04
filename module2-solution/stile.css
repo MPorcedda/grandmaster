@@ -5,6 +5,7 @@
 h1 {
   text-align: center;
   margin-bottom: 15px;
+  font-size: 1.75em;
 }
 p {
  border: 1px solid black;
@@ -13,19 +14,16 @@ p {
  height: 170px;
  margin-right: auto;
  margin-left: auto;
- font-family: Helvetica;
  color: white;
 }
 
-
-/* Simple Responsive Framework. */
 .row {
   width: 100%;
 }
 
 .p-ettichetta{
-  border-left:2px solid black;
-  border-bottom: 2px solid black;
+  border-left:1px solid black;
+  border-bottom: 1px solid black;
   position: relative;
   float: right;
   height: 30px;
@@ -33,9 +31,11 @@ p {
   text-align: center;
   width: 30%;
   line-height: 30px;
-  font-weight: 900;
   margin-bottom: 0px;
   min-width: 100px;
+  font-family: Eurostile, sans-serif;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .container{
@@ -47,10 +47,12 @@ p {
 }
 
 .p-testo{
-  padding-top: 32px;
+  padding-top: 50px;
   text-align: justify;
   padding-left: 5px;
   padding-right: 5px;
+  font-family: Eurostile;
+  font-style: italic;
 }
 
 #firstText{
